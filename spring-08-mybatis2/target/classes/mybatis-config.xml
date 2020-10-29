@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <properties resource="db.properties"/>
+<!--    导入数据库配置文件,这个文件默认是放在resources西面的,如果放在其他的位置记得换换一下文件路径,不然就会报错-->
+
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="${driver}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+
+        <environment id="test">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/mybatis"/>
+                <property name="username" value="liwenli"/>
+                <property name="password" value="liwenli"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+<!--    <mappers>-->
+<!--这个映射必须只有一个,如果在spring配置文件ApplicationContext.xml中已经注册过mapper.xml映射文件,则这里不应该在写这个mappers标签,不然会报错-->
+<!--        <mapper resource="com/liwenli/dao/UserMapper.xml"/>-->
+
+<!--    </mappers>-->
+
+</configuration>

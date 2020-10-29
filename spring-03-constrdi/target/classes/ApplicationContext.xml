@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    当无有参构造函数时spring通过User.java的无参构造函数的默认地构造新对象-->
+    <bean id="user" class="com.liwenli.pojo.User">
+        <property name="name" value="李文利"/>
+     </bean>
+<!--    下面的都是spring通过User.java有参构造函数的非默认构造方式-->
+    <!-- 第一种根据index参数下标设置 -->
+    <bean id="user2" class="com.liwenli.pojo.User">
+        <!-- index指构造方法 , 下标从0开始 -->
+        <constructor-arg index="0" value="李文利"/>
+    </bean>
+    <!-- 第二种根据参数名字设置 -->
+    <bean id="user3" class="com.liwenli.pojo.User">
+        <!-- name指参数名 推荐使用-->
+        <constructor-arg name="name" value="李文利"/>
+    </bean>
+    <!-- 第三种根据参数类型设置  不推荐使用-->
+    <bean id="user4" class="com.liwenli.pojo.User">
+        <constructor-arg type="java.lang.String" value="李文利"/>
+    </bean>
+</beans>

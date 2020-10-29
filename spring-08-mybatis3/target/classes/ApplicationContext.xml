@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--DataSource-->
+
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/mybatis"/>
+        <property name="username" value="liwenli"/>
+        <property name="password" value="liwenli"/>
+
+    </bean>
+
+    <!--sqlSessionFactory-->
+
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <!--            需要绑定mybatis配置文件,当然这些也可以在mybatis-config.xml中进行设置,不是必须要的-->
+                    <property name="configLocation" value="classpath:mybatis-config.xml"/>
+                    <property name="mapperLocations" value="com/liwenli/dao/UserMapper.xml"/>
+
+
+    </bean>
+
+    <!--    sqlSessionTemplate就是我们使用的sqlSession, 是比较规范的名字,然而我们已经习惯了sqlSession的名字 -->
+    <bean id="sqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate">
+        <!--         <bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate">-->
+
+        <!--             只能使用构造器注入seqSessionFactory,因为它没有set()-->
+        <constructor-arg index="0" ref="sqlSessionFactory"/>
+
+    </bean>
+
+<!--    一个UserMapper.java接口的实现类 第一种方法-->
+<!--    <bean id="userMapperImpl" class="com.liwenli.dao.UserMapperImpl">-->
+<!--        <property name="sqlSessionTemplate" ref="sqlSessionTemplate"/>-->
+<!--</bean> -->
+
+<!--    第二种方法-->
+<bean id="userMapperImpl" class="com.liwenli.dao.UserMapperImpl">
+
+    <property name="sqlSessionFactory" ref="sqlSessionFactory" />
+</bean>
+
+</beans>
