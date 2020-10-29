@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:gitee" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="442bf561-9a0a-4906-8d6e-a67e9671272c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/533c16e4-c7f6-4afe-b4a4-b875407c0f76.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/533c16e4-c7f6-4afe-b4a4-b875407c0f76/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1iN3CjOixvfrjXyNj6pdV35ovVJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\imliw\IdeaProjects\spring-study\spring-08-mybatis3\src\test" />
+      <recent name="C:\Users\imliw\IdeaProjects\spring-study\spring-08-mybatis3" />
+      <recent name="C:\Users\imliw\IdeaProjects\spring-study\spring-08-mybatis2" />
+      <recent name="C:\Users\imliw\IdeaProjects\spring-study\spring-08-mybatis\src\main\resources" />
+      <recent name="C:\Users\imliw\IdeaProjects\spring-study\spring-08-mybatis\src\main\java\com\liwenli\dao" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MyTest (5)">
+    <configuration name="MyTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <module name="spring-07-aop2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <module name="spring-07-aop3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liwenli.dao.MyTest" />
+      <module name="spring-08-mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liwenli.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liwenli.dao.MyTest" />
+      <module name="spring-08-mybatis2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liwenli.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liwenli.dao.MyTest" />
+      <module name="spring-08-mybatis3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liwenli.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyTest (5)" />
+        <item itemvalue="Application.MyTest (4)" />
+        <item itemvalue="Application.MyTest (3)" />
+        <item itemvalue="Application.MyTest (2)" />
+        <item itemvalue="Application.MyTest (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="442bf561-9a0a-4906-8d6e-a67e9671272c" name="Default Changelist" comment="" />
+      <created>1601734096235</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601734096235</updated>
+      <workItem from="1601734100277" duration="31000000" />
+      <workItem from="1601855106068" duration="1297000" />
+      <workItem from="1601859681053" duration="53942000" />
+      <workItem from="1603970271392" duration="987000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="347" y="13" key="#MyTest.testMethodAutowire" timestamp="1601802092673">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="347" y="13" key="#MyTest.testMethodAutowire/0.0.1536.824@0.0.1536.824" timestamp="1601802092673" />
+    <state x="444" y="27" key="#MyTest_(4)" timestamp="1601797155038">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="444" y="27" key="#MyTest_(4)/0.0.1536.824@0.0.1536.824" timestamp="1601797155038" />
+    <state x="249" y="0" key="#Project_Structure" timestamp="1602037382925">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1602037382925" />
+    <state x="361" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601996022517">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1601996022517" />
+    <state x="491" y="212" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601771152291">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="491" y="212" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1601771152291" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1602034969083">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1602034969083" />
+    <state x="342" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1602039614165">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="342" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1602039614165" />
+    <state x="526" y="279" width="484" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1602040120576">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="526" y="279" width="484" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1602040120576" />
+    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601959681841">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1601959681841" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1602062494451">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602062494451" />
+    <state width="1493" height="296" key="GridCell.Tab.0.bottom" timestamp="1602062559467">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="296" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602062559467" />
+    <state width="1493" height="296" key="GridCell.Tab.0.center" timestamp="1602062559467">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="296" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602062559467" />
+    <state width="1493" height="296" key="GridCell.Tab.0.left" timestamp="1602062559467">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="296" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602062559467" />
+    <state width="1493" height="296" key="GridCell.Tab.0.right" timestamp="1602062559467">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="296" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602062559467" />
+    <state x="270" y="56" key="SettingsEditor" timestamp="1601802030453">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601802030453" />
+    <state x="178" y="72" key="new project wizard" timestamp="1602041716599">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="72" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1602041716599" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1601785295392">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1601785295392" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1602060848862">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1602060848862" />
+    <state x="409" y="95" key="spring file set editor" timestamp="1602038086796">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="409" y="95" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1602038086796" />
+  </component>
+</project>
